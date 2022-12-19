@@ -61,6 +61,7 @@ public class Main {
         var remains = boxerTwo % boxerOne;
         System.out.println("2.Функция остаток, составило " + remains + " кг!");
 
+
         System.out.println("Задача8");
         var totalHours = 640;
         var employees = totalHours / 8;
