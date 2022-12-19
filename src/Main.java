@@ -58,7 +58,7 @@ public class Main {
         var differenceMaxMin = boxerTwo - boxerOne;
         System.out.println("Разница весов спортсменов:");
         System.out.println("1.Вычитание, составило " + differenceMaxMin + " кг");
-        var remains = (boxerOne + boxerTwo) % totalWeigt;
+        var remains = boxerTwo % boxerOne;
         System.out.println("2.Функция остаток, составило " + remains + " кг!");
 
         System.out.println("Задача8");
