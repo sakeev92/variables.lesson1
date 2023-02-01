@@ -68,7 +68,6 @@ public class Main {
         System.out.println("Всего работников в кампании - " + employees);
         var totalEmployess = employees + 94;
         var hoursWork = totalEmployess * 8;
-
         System.out.println("Если в компании работает " +totalEmployess + " человека, то всего " + hoursWork + " часов работы может быть поделено между сотрудниками");
 
     }}
